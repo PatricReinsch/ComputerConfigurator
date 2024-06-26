@@ -24,12 +24,19 @@
         <h2>Configuration Result</h2>
         <p>You have configured the following setup:</p>
         <ul>
+			
+			<!-- JavaBean registrieren -->
+			<jsp:useBean id="config" class="beans.BeansConfig" scope="session" />
+			
             <li><strong>Prozessor:</strong> ${config.cpu}</li>
             <li><strong>Grafikkarte:</strong> ${config.gpu}</li>
             <li><strong>Arbeitsspeicher:</strong> ${config.ram}</li>
             <li><strong>Speicher:</strong> ${config.rom}</li>
             <li><strong>Betriebssystem:</strong> ${config.os}</li>
         </ul>
+		<div id="content">
+		        <c:out value="${config.htmlText}" escapeXml="false" />
+		    </div>
     </section>
 </main>
 

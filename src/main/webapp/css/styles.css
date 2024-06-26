@@ -251,4 +251,31 @@ button.button:hover {
     color: white; /* Textfarbe auf Weiß setzen */
     text-decoration: none; /* Unterstreichung entfernen */
 }
+input {
+    padding: 10px;
+    font-size: 1em;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.adress {
+    flex-grow: 1;
+    max-width: 40%;
+}
+.recipt {
+    flex-grow: 1;
+    max-width: 60%;
+}
+.order-summary {
+    text-align: center;
+}
+.order-summary table {
+    margin: 0 auto; /* Zentriert die Tabelle horizontal */
+    width: 50%; /* Optional: Setzt die Breite der Tabelle auf 80% des Containers */
+    border-collapse: collapse;
+}
+.checkout-button {
+    margin-top: 20px;
+}
 
