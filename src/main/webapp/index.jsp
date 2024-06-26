@@ -15,7 +15,7 @@
     <nav>
         <ul>
             <li><a href="index.jsp">Home</a></li>
-            <li><a href="product.jsp">Konfigurator</a></li>s
+            <li><a href="product.jsp">Konfigurator</a></li>
             <li><a href="help.jsp">Hilfe</a></li>
             <li><a href="impressum.jsp">Impressum</a></li>
         </ul>
