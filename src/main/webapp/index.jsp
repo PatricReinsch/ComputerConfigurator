@@ -1,4 +1,3 @@
-<%@page pageEncoding="utf-8" %>
 <!DOCTYPE html>
 <html lang="de">
 <head>

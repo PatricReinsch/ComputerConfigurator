@@ -84,6 +84,7 @@ h2 {
     transition: transform 0.3s, box-shadow 0.3s;
     width: 300px;
     position: relative;
+    cursor: pointer;
 }
 
 .product:hover {
@@ -222,4 +223,28 @@ button.button {
 button.button:hover {
     background-color: #0056b3;
 }
+.accordion {
+    background-color: #1E1F22;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+  }
+  
+  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+  .active, .accordion:hover {
+    background-color: #171719;
+  }
+  
+  /* Style the accordion panel. Note: hidden by default */
+  .panel {
+    padding: 0 18px;
+    background-color: #1E1F22;
+    display: none;
+    overflow: hidden;
+  }
 
