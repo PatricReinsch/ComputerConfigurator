@@ -113,7 +113,7 @@
                             <option value="win11">Windows 11</option>
                         </select>
                     </div>
-                    <button href="index.jsp" class="button">Zur Kasse</button>
+                    <a href="checkout.jsp">Zur Kasse</a>
                 </form>
             </div>
         </div>

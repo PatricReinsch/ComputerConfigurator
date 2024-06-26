@@ -56,7 +56,7 @@
             </div>
         
             <div class="checkout-form">
-                <h2>Zahlungsmethode</h2>
+                <h2>Kreditkarte</h2>
                 <div class="form-group">
                     <label for="cardname">Name auf der Karte:</label>
                     <input type="text" id="cardname" name="cardname" required>
