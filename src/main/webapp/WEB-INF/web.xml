@@ -6,7 +6,7 @@
 
     <servlet>
         <servlet-name>ServletConfig</servlet-name>
-        <servlet-class>servelets.ServletConfig</servlet-class>
+        <servlet-class>servlets.ServletConfig</servlet-class>
     </servlet>
 
     <servlet-mapping>
