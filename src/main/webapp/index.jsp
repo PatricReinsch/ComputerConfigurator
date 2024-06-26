@@ -52,14 +52,16 @@
                 <div class="price">€799</div>
             </div>
         </div>
-        <div class="product">
-            <img src="css/pictures/pc4.jpg" alt="Produkt 4">
-            <div class="product-details">
-                <h3>Produkt 4</h3>
-                <p>Beschreibung von Produkt 4</p>
-                <div class="price">€1299</div>
+        <a id="choosePC" onclick="navigateToProductPage('4','r5600')" class="product-link">
+            <div class="product">
+                <img src="css/pictures/pc4.jpg" alt="Produkt 4">
+                <div class="product-details">
+                    <h3>Produkt 4</h3>
+                    <p>Beschreibung von Produkt 4</p>
+                    <div class="price">€1299</div>
+                </div>
             </div>
-        </div>
+        </a>        
         <div class="product">
             <img src="css/pictures/pc5.jpg" alt="Produkt 5">
             <div class="product-details">
@@ -85,3 +87,4 @@
 
 </body>
 </html>
+<script src="javascript/index.js"></script>

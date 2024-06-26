@@ -30,15 +30,8 @@
         <h2>Gaming PC</h2>
         <div class="product-container">
             <div class="product-info">
-                <img src="https://via.placeholder.com/600x400" alt="Gaming PC">
+                <img id="pic" src="https://via.placeholder.com/600x400" alt="Gaming PC">
                 <p>Der ultimative High-End Gaming PC mit der neuesten Hardware, ideal für die anspruchsvollsten Spiele und Anwendungen.</p>
-                <ul>
-                    <li>Prozessor: Intel Core i9</li>
-                    <li>Grafikkarte: NVIDIA GeForce RTX 3080</li>
-                    <li>Arbeitsspeicher: 32GB DDR4</li>
-                    <li>Speicher: 1TB SSD</li>
-                    <li>Betriebssystem: Windows 10</li>
-                </ul>
             </div>
             <div class="configurator">
                 <h2>Konfigurator</h2>
@@ -133,3 +126,4 @@
 
 </body>
 </html>
+<script src="javascript/product.js"></script>

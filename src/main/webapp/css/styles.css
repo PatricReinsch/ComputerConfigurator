@@ -247,4 +247,8 @@ button.button:hover {
     display: none;
     overflow: hidden;
   }
+  a {
+    color: white; /* Textfarbe auf Weiß setzen */
+    text-decoration: none; /* Unterstreichung entfernen */
+}
 
