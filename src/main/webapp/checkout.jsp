@@ -103,7 +103,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <button class="checkout-button">Bestellung abschicken</button>
+                <button id="buyButton" class="checkout-button">Bestellung abschicken</button>
             </div>
     </div>
     
@@ -117,3 +117,4 @@
 
 </body>
 </html>
+<script src="javascript/checkout.js"></script>
