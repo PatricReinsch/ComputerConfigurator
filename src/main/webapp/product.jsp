@@ -120,7 +120,7 @@
                             <option value="win11">Windows 11</option>
                         </select>
                     </div>
-                    <button type="submit" class="button">Zur Kasse</button>
+                    <button href="index.jsp" class="button">Zur Kasse</button>
                 </form>
             </div>
         </div>
