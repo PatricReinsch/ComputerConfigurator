@@ -14,7 +14,7 @@
     <nav>
         <ul>
             <li><a href="index.jsp">Home</a></li>
-            <li><a href="product.jsp">Konfigurator</a></li>s
+            <li><a href="product.jsp">Konfigurator</a></li>
             <li><a href="help.jsp">Hilfe</a></li>
             <li><a href="impressum.jsp">Impressum</a></li>
         </ul>
@@ -42,7 +42,7 @@
             </div>
             <div class="configurator">
                 <h2>Konfigurator</h2>
-                <form>
+                <form action="config" method="post" id="configForm">
                     <div class="form-group">
                         <label for="cpu">Prozessor:</label>
                         <select id="cpu" name="cpu">
@@ -68,8 +68,8 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="storage">Speicher:</label>
-                        <select id="storage" name="storage">
+                        <label for="rom">Speicher:</label>
+                        <select id="rom" name="rom">
                             <option value="512gb">512GB SSD</option>
                             <option value="1tb">1TB SSD</option>
                             <option value="2tb">2TB SSD</option>
