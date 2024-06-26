@@ -11,6 +11,14 @@
 <body>
 
 <header>
+    <nav>
+        <ul>
+            <li><a href="index.jsp">Home</a></li>
+            <li><a href="produkt.jsp">Konfigurator</a></li>s
+            <li><a href="hilfe.jsp">Hilfe</a></li>
+            <li><a href="impressum.jsp">Impressum</a></li>
+        </ul>
+    </nav>
     <div class="header-content">
         <h1>Computer Konfigurator Shop</h1>
         <p>Stellen Sie Ihren perfekten Computer zusammen</p>
@@ -21,7 +29,7 @@
     <h2>Unsere Produkte</h2>
     <div class="product-grid">
         <div class="product">
-            <img src="https://via.placeholder.com/300x200" alt="Produkt 1">
+            <img src="css/pictures/pc1.jpg" alt="Produkt 1">
             <div class="product-details">
                 <h3>Produkt 1</h3>
                 <p>Beschreibung von Produkt 1</p>
@@ -29,7 +37,7 @@
             </div>
         </div>
         <div class="product">
-            <img src="https://via.placeholder.com/300x200" alt="Produkt 2">
+            <img src="css/pictures/pc2.jpg" alt="Produkt 2">
             <div class="product-details">
                 <h3>Produkt 2</h3>
                 <p>Beschreibung von Produkt 2</p>
@@ -37,7 +45,7 @@
             </div>
         </div>
         <div class="product">
-            <img src="https://via.placeholder.com/300x200" alt="Produkt 3">
+            <img src="css/pictures/pc3.jpg" alt="Produkt 3">
             <div class="product-details">
                 <h3>Produkt 3</h3>
                 <p>Beschreibung von Produkt 3</p>
@@ -45,7 +53,7 @@
             </div>
         </div>
         <div class="product">
-            <img src="https://via.placeholder.com/300x200" alt="Produkt 4">
+            <img src="css/pictures/pc4.jpg" alt="Produkt 4">
             <div class="product-details">
                 <h3>Produkt 4</h3>
                 <p>Beschreibung von Produkt 4</p>
@@ -53,7 +61,7 @@
             </div>
         </div>
         <div class="product">
-            <img src="https://via.placeholder.com/300x200" alt="Produkt 5">
+            <img src="css/pictures/pc5.jpg" alt="Produkt 5">
             <div class="product-details">
                 <h3>Produkt 5</h3>
                 <p>Beschreibung von Produkt 5</p>
@@ -61,7 +69,7 @@
             </div>
         </div>
         <div class="product">
-            <img src="https://via.placeholder.com/300x200" alt="Produkt 6">
+            <img src="css/pictures/pc6.jpg" alt="Produkt 6">
             <div class="product-details">
                 <h3>Produkt 6</h3>
                 <p>Beschreibung von Produkt 6</p>
