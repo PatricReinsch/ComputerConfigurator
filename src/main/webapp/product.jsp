@@ -30,33 +30,53 @@
         <h2>Gaming PC</h2>
         <div class="product-container">
             <div class="product-info">
-                <img src="https://via.placeholder.com/600x400" alt="Gaming PC">
+                <img id="pic" src="https://via.placeholder.com/600x400" alt="Gaming PC">
                 <p>Der ultimative High-End Gaming PC mit der neuesten Hardware, ideal für die anspruchsvollsten Spiele und Anwendungen.</p>
-                <ul>
-                    <li>Prozessor: Intel Core i9</li>
-                    <li>Grafikkarte: NVIDIA GeForce RTX 3080</li>
-                    <li>Arbeitsspeicher: 32GB DDR4</li>
-                    <li>Speicher: 1TB SSD</li>
-                    <li>Betriebssystem: Windows 10</li>
-                </ul>
             </div>
             <div class="configurator">
                 <h2>Konfigurator</h2>
-                <form action="config" method="post" id="configForm">
+                <form>
                     <div class="form-group">
                         <label for="cpu">Prozessor:</label>
                         <select id="cpu" name="cpu">
-                            <option value="i5">Intel Core i5</option>
-                            <option value="i7">Intel Core i7</option>
-                            <option value="i9">Intel Core i9</option>
+                            <option value="r5950x">Ryzen 9 5950X</option>
+                            <option value="r5900x">Ryzen 9 5900X</option>
+                            <option value="r5900">Ryzen 9 5900</option>
+                            <option value="r5800x3d">Ryzen 7 5800X3D</option>
+                            <option value="r5800x">Ryzen 7 5800X</option>
+                            <option value="r5800">Ryzen 7 5800</option>
+                            <option value="r5700x3d">Ryzen 7 5700X3D</option>
+                            <option value="r5700x">Ryzen 7 5700X</option>
+                            <option value="r5600x">Ryzen 5 5600X</option>
+                            <option value="r5600">Ryzen 5 5600</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="mainboard">Mainboard:</label>
+                        <select id="mainboard" name="mainboard">
+                            <option value="msib550">MSI B550</option>
+                            <option value="asusb550">ASUS B550</option>
+                            <option value="msix570">MSI X570</option>
+                            <option value="asusx570">ASUS X570</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <label for="gpu">Grafikkarte:</label>
                         <select id="gpu" name="gpu">
-                            <option value="rtx3060">NVIDIA GeForce RTX 3060</option>
-                            <option value="rtx3070">NVIDIA GeForce RTX 3070</option>
-                            <option value="rtx3080">NVIDIA GeForce RTX 3080</option>
+                            <optgroup label="Nvidia">
+                                <option value="rtx4090">RTX 4090</option>
+                                <option value="rtx4080ti">RTX 4080 Ti</option>
+                                <option value="rtx4080">RTX 4080</option>
+                                <option value="rtx4070">RTX 4070</option>
+                                <option value="rtx4060ti">RTX 4060 Ti</option>
+                            </optgroup>
+                            <optgroup label="AMD">
+                                <option value="rx6800xt">RX 6800 XT</option>
+                                <option value="rx6700xt">RX 6700 XT</option>
+                                <option value="rx6900xt">RX 6900 XT</option>
+                                <option value="rx6600xt">RX 6600 XT</option>
+                                <option value="rx6800">RX 6800</option>
+                            </optgroup>
                         </select>
                     </div>
                     <div class="form-group">
@@ -68,21 +88,32 @@
                         </select>
                     </div>
                     <div class="form-group">
-                        <label for="rom">Speicher:</label>
-                        <select id="rom" name="rom">
+                        <label for="ssd">SSD:</label>
+                        <select id="ssd" name="ssd">
                             <option value="512gb">512GB SSD</option>
                             <option value="1tb">1TB SSD</option>
                             <option value="2tb">2TB SSD</option>
+                            <option value="2tb">4TB SSD</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="hdd">HDD:</label>
+                        <select id="hdd" name="hdd">
+                            <option value="512gb">Keine</option>
+                            <option value="1tb">1TB HDD</option>
+                            <option value="2tb">2TB HDD</option>
+                            <option value="2tb">4TB HDD</option>
                         </select>
                     </div>
                     <div class="form-group">
                         <label for="os">Betriebssystem:</label>
                         <select id="os" name="os">
+                            <option value="win10">Keins</option>
                             <option value="win10">Windows 10</option>
                             <option value="win11">Windows 11</option>
                         </select>
                     </div>
-                    <button type="submit" class="button">Konfiguration speichern</button>
+                    <button href="index.jsp" class="button">Zur Kasse</button>
                 </form>
             </div>
         </div>
@@ -95,3 +126,4 @@
 
 </body>
 </html>
+<script src="javascript/product.js"></script>
