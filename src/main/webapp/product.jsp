@@ -113,6 +113,7 @@
                             <option value="win11">Windows 11</option>
                         </select>
                     </div>
+                    <h2>Preis: XXXX€</h2>
                     <a href="checkout.jsp">Zur Kasse</a>
                 </form>
             </div>
