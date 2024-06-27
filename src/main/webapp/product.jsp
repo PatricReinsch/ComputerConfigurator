@@ -103,7 +103,7 @@
                             <option value="0gb">Keine</option>
                             <option value="1tb">1TB HDD</option>
                             <option value="2tb">2TB HDD</option>
-                            <option value="2tb">4TB HDD</option>
+                            <option value="4tb">4TB HDD</option>
                         </select>
                     </div>
                     <div class="form-group">
