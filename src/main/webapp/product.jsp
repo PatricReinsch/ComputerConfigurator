@@ -90,6 +90,7 @@
                     <div class="form-group">
                         <label for="ssd">SSD:</label>
                         <select id="ssd" name="ssd">
+                            <option value="0gb">Keine</option>
                             <option value="512gb">512GB SSD</option>
                             <option value="1tb">1TB SSD</option>
                             <option value="2tb">2TB SSD</option>
@@ -99,7 +100,7 @@
                     <div class="form-group">
                         <label for="hdd">HDD:</label>
                         <select id="hdd" name="hdd">
-                            <option value="512gb">Keine</option>
+                            <option value="0gb">Keine</option>
                             <option value="1tb">1TB HDD</option>
                             <option value="2tb">2TB HDD</option>
                             <option value="2tb">4TB HDD</option>
@@ -108,7 +109,7 @@
                     <div class="form-group">
                         <label for="os">Betriebssystem:</label>
                         <select id="os" name="os">
-                            <option value="win10">Keins</option>
+                            <option value="x">Keins</option>
                             <option value="win10">Windows 10</option>
                             <option value="win11">Windows 11</option>
                         </select>

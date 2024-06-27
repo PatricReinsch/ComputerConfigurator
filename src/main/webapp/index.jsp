@@ -52,7 +52,7 @@
                 <div class="price">€799</div>
             </div>
         </div>
-        <a id="choosePC" onclick="navigateToProductPage('4','r5600')" class="product-link">
+        <a id="choosePC" onclick="navigateToProductPage('4','r5600','asusb550','rtx4070','32gb','2tb','0gb','win10')" class="product-link">
             <div class="product">
                 <img src="css/pictures/pc4.jpg" alt="Produkt 4">
                 <div class="product-details">
