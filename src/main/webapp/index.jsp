@@ -28,7 +28,7 @@
 <div class="container">
     <h2>Unsere Produkte</h2>
     <div class="product-grid">
-        <a id="choosePC" onclick="navigateToProductPage('1','r5600','msib550','rtx4060ti','16gb','1tb','0gb','win10')" class="product-link">
+        <a id="choosePC" onclick="navigateToProductPage('1','r5600','msib550','rtx4060ti','16gb','1tb','0gb','x')" class="product-link">
             <div class="product">
                 <img src="css/pictures/pc1.jpg" alt="Produkt 1">
                 <div class="product-details">
