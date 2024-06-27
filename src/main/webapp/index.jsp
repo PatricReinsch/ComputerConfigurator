@@ -28,30 +28,36 @@
 <div class="container">
     <h2>Unsere Produkte</h2>
     <div class="product-grid">
-        <div class="product">
-            <img src="css/pictures/pc1.jpg" alt="Produkt 1">
-            <div class="product-details">
-                <h3>Produkt 1</h3>
-                <p>Beschreibung von Produkt 1</p>
-                <div class="price">€999</div>
+        <a id="choosePC" onclick="navigateToProductPage('1','r5600','asusb550','rtx4070','32gb','2tb','0gb','win10')" class="product-link">
+            <div class="product">
+                <img src="css/pictures/pc1.jpg" alt="Produkt 1">
+                <div class="product-details">
+                    <h3>Produkt 1</h3>
+                    <p>Beschreibung von Produkt 1</p>
+                    <div class="price">€1299</div>
+                </div>
             </div>
-        </div>
-        <div class="product">
-            <img src="css/pictures/pc2.jpg" alt="Produkt 2">
-            <div class="product-details">
-                <h3>Produkt 2</h3>
-                <p>Beschreibung von Produkt 2</p>
-                <div class="price">€1199</div>
+        </a>   
+        <a id="choosePC" onclick="navigateToProductPage('2','r5600','asusb550','rtx4070','32gb','2tb','0gb','win10')" class="product-link">
+            <div class="product">
+                <img src="css/pictures/pc2.jpg" alt="Produkt 2">
+                <div class="product-details">
+                    <h3>Produkt 2</h3>
+                    <p>Beschreibung von Produkt 2</p>
+                    <div class="price">€1299</div>
+                </div>
             </div>
-        </div>
-        <div class="product">
-            <img src="css/pictures/pc3.jpg" alt="Produkt 3">
-            <div class="product-details">
-                <h3>Produkt 3</h3>
-                <p>Beschreibung von Produkt 3</p>
-                <div class="price">€799</div>
+        </a>   
+        <a id="choosePC" onclick="navigateToProductPage('3','r5600','asusb550','rtx4070','32gb','2tb','0gb','win10')" class="product-link">
+            <div class="product">
+                <img src="css/pictures/pc3.jpg" alt="Produkt 3">
+                <div class="product-details">
+                    <h3>Produkt 3</h3>
+                    <p>Beschreibung von Produkt 3</p>
+                    <div class="price">€1299</div>
+                </div>
             </div>
-        </div>
+        </a>   
         <a id="choosePC" onclick="navigateToProductPage('4','r5600','asusb550','rtx4070','32gb','2tb','0gb','win10')" class="product-link">
             <div class="product">
                 <img src="css/pictures/pc4.jpg" alt="Produkt 4">
@@ -62,22 +68,26 @@
                 </div>
             </div>
         </a>        
-        <div class="product">
-            <img src="css/pictures/pc5.jpg" alt="Produkt 5">
-            <div class="product-details">
-                <h3>Produkt 5</h3>
-                <p>Beschreibung von Produkt 5</p>
-                <div class="price">€899</div>
+        <a id="choosePC" onclick="navigateToProductPage('5','r5600','asusb550','rtx4070','32gb','2tb','0gb','win10')" class="product-link">
+            <div class="product">
+                <img src="css/pictures/pc5.jpg" alt="Produkt 5">
+                <div class="product-details">
+                    <h3>Produkt 5</h3>
+                    <p>Beschreibung von Produkt 5</p>
+                    <div class="price">€1299</div>
+                </div>
             </div>
-        </div>
-        <div class="product">
-            <img src="css/pictures/pc6.jpg" alt="Produkt 6">
-            <div class="product-details">
-                <h3>Produkt 6</h3>
-                <p>Beschreibung von Produkt 6</p>
-                <div class="price">€1499</div>
+        </a>   
+        <a id="choosePC" onclick="navigateToProductPage('6','r5600','asusb550','rtx4070','32gb','2tb','0gb','win10')" class="product-link">
+            <div class="product">
+                <img src="css/pictures/pc6.jpg" alt="Produkt 6">
+                <div class="product-details">
+                    <h3>Produkt 6</h3>
+                    <p>Beschreibung von Produkt 6</p>
+                    <div class="price">€1299</div>
+                </div>
             </div>
-        </div>
+        </a>   
     </div>
 </div>
 
