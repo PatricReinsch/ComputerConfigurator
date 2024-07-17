@@ -89,18 +89,18 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td>Produkt 1</td>
+                            <td>Computer</td>
                             <td>1</td>
-                            <td>10,00 €</td>
+                            <td>1299,00 €</td>
                         </tr>
                         <tr>
-                            <td>Produkt 2</td>
-                            <td>2</td>
-                            <td>20,00 €</td>
+                            <td>Versand</td>
+                            <td>1</td>
+                            <td>7,99 €</td>
                         </tr>
                         <tr>
                             <td class="total" colspan="2">Gesamt:</td>
-                            <td>30,00 €</td>
+                            <td>1306,99 €</td>
                         </tr>
                     </tbody>
                 </table>
