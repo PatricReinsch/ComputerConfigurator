@@ -28,19 +28,29 @@
 
 <div class="container">
     <h2>Hilfe (FAQ)</h2>
-    <button class="accordion">Section 1</button>
+    <button class="accordion">Wie bestelle ich einen PC über den Konfigurator?</button>
 <div class="panel">
-  <p>Lorem ipsum...</p>
+  <p>Wählen Sie zunächst die gewünschte Basis-Konfiguration aus. Anschließend können Sie die einzelnen Komponenten nach Ihren Wünschen anpassen. Sobald Sie mit der Konfiguration zufrieden sind, können Sie das Produkt an der Kasse bezahlen und den Bestellprozess abschließen.</p>
 </div>
 
-<button class="accordion">Section 2</button>
+<button class="accordion">Kann ich meine Bestellung nachträglich ändern?</button>
 <div class="panel">
-  <p>Lorem ipsum...</p>
+  <p>Änderungen an der Bestellung sind möglich, solange der PC noch nicht zusammengebaut wurde. Bitte kontaktieren Sie unseren Kundenservice so schnell wie möglich, um Änderungen vorzunehmen.</p>
 </div>
 
-<button class="accordion">Section 3</button>
+<button class="accordion">Wie lange dauert die Lieferung meines konfigurierten PCs?</button>
 <div class="panel">
-  <p>Lorem ipsum...</p>
+  <p>Die Lieferzeit hängt von der Verfügbarkeit der Komponenten und der Komplexität der Konfiguration ab. In der Regel beträgt die Lieferzeit 7-14 Werktage. Sie erhalten eine Benachrichtigung, sobald Ihr PC versandbereit ist.</p>
+</div>
+
+<button class="accordion">Kann ich meinen PC auch ins Ausland liefern lassen?</button>
+<div class="panel">
+  <p>Nein, wir versenden unserer Produkte nur innerhalb Deutschlands.</p>
+</div>
+
+<button class="accordion">Welche Zahlungsmethoden akzeptieren Sie?</button>
+<div class="panel">
+  <p>Wir akzeptieren nur Zahlungen mit einer gültigen Kreditkarte.</p>
 </div>
 </div>
 
