@@ -1,5 +1,5 @@
 <%@ page contentType="text/html" pageEncoding="UTF-8"%>
-<%@ page import="java.beans.BeansConfig"%>
+<%@ page import="beans.BeansConfig"%>
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -68,8 +68,12 @@
                             <td>${config.ram}</td>
                         </tr>
                         <tr>
-                            <td>Speicher</td>
-                            <td>${config.rom}</td>
+                            <td>Speicher SSD</td>
+                            <td>${config.ssd}</td>
+                        </tr>
+                        <tr>
+                            <td>Speicher HDD</td>
+                            <td>${config.hdd}</td>
                         </tr>
                         <tr>
                             <td>Betriebssystem</td>
