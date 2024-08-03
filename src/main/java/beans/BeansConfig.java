@@ -1,5 +1,7 @@
 package beans;
 
+import price.price;
+
 public class BeansConfig {
     private String cpu;
     private String mainboard;
@@ -9,14 +11,23 @@ public class BeansConfig {
     private String hdd;
     private String os;
 
-    // Getters and setters for all fields
+    // Prices
+    private double cpuPrice;
+    private double mainboardPrice;
+    private double gpuPrice;
+    private double ramPrice;
+    private double ssdPrice;
+    private double hddPrice;
+    private double osPrice;
 
+    // Getters and Setters
     public String getCpu() {
         return cpu;
     }
 
     public void setCpu(String cpu) {
         this.cpu = cpu;
+        this.cpuPrice = price.getPrice(cpu);
     }
 
     public String getMainboard() {
@@ -25,6 +36,7 @@ public class BeansConfig {
 
     public void setMainboard(String mainboard) {
         this.mainboard = mainboard;
+        this.mainboardPrice = price.getPrice(mainboard);
     }
 
     public String getGpu() {
@@ -33,6 +45,7 @@ public class BeansConfig {
 
     public void setGpu(String gpu) {
         this.gpu = gpu;
+        this.gpuPrice = price.getPrice(gpu);
     }
 
     public String getRam() {
@@ -41,6 +54,7 @@ public class BeansConfig {
 
     public void setRam(String ram) {
         this.ram = ram;
+        this.ramPrice = price.getPrice(ram);
     }
 
     public String getSsd() {
@@ -49,6 +63,7 @@ public class BeansConfig {
 
     public void setSsd(String ssd) {
         this.ssd = ssd;
+        this.ssdPrice = price.getPrice(ssd);
     }
 
     public String getHdd() {
@@ -57,6 +72,7 @@ public class BeansConfig {
 
     public void setHdd(String hdd) {
         this.hdd = hdd;
+        this.hddPrice = price.getPrice(hdd);
     }
 
     public String getOs() {
@@ -65,5 +81,40 @@ public class BeansConfig {
 
     public void setOs(String os) {
         this.os = os;
+        this.osPrice = price.getPrice(os);
+    }
+
+    // Get total price
+    public double getTotalPrice() {
+        return cpuPrice + mainboardPrice + gpuPrice + ramPrice + ssdPrice + hddPrice + osPrice;
+    }
+
+    // Getters for individual prices
+    public double getCpuPrice() {
+        return cpuPrice;
+    }
+
+    public double getMainboardPrice() {
+        return mainboardPrice;
+    }
+
+    public double getGpuPrice() {
+        return gpuPrice;
+    }
+
+    public double getRamPrice() {
+        return ramPrice;
+    }
+
+    public double getSsdPrice() {
+        return ssdPrice;
+    }
+
+    public double getHddPrice() {
+        return hddPrice;
+    }
+
+    public double getOsPrice() {
+        return osPrice;
     }
 }

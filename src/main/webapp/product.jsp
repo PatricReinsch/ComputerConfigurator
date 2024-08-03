@@ -101,10 +101,10 @@
                     <div class="form-group">
                         <label for="hdd">HDD:</label>
                         <select id="hdd" name="hdd">
-                            <option value="0gb">Keine</option>
-                            <option value="1tb">1TB HDD</option>
-                            <option value="2tb">2TB HDD</option>
-                            <option value="4tb">4TB HDD</option>
+                            <option value="0gb_hdd">Keine</option>
+                            <option value="1tb_hdd">1TB HDD</option>
+                            <option value="2tb_hdd">2TB HDD</option>
+                            <option value="4tb_hdd">4TB HDD</option>
                         </select>
                     </div>
                     <div class="form-group">

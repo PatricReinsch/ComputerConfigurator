@@ -265,3 +265,8 @@ input {
     padding: 10px;
     background-color: #f4f4f4;
 }
+.total {
+	text-align:center;
+	padding: 20px;
+	
+}

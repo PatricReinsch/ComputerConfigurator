@@ -36,7 +36,7 @@
             <div class="checkout-form">
                 <h2>Lieferadresse</h2>
                 <!-- Address form remains the same -->
-       <form action="/submit" method="POST">
+                       <form action="/submit" method="POST">
         <div class="form-group">
             <label for="name">Name</label>
             <input type="text" id="name" name="name" placeholder="Name" required>
@@ -96,35 +96,47 @@
                         <tr>
                             <th>Komponente</th>
                             <th>Auswahl</th>
+                            <th>Preis</th>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td>Prozessor</td>
                             <td>${config.cpu}</td>
+                            <td>${config.cpuPrice}</td>
+                        </tr>
+                         <tr>
+                            <td>Mainboard</td>
+                            <td>${config.mainboard}</td>
+                            <td>${config.mainboardPrice}</td>
                         </tr>
                         <tr>
                             <td>Grafikkarte</td>
                             <td>${config.gpu}</td>
+                            <td>${config.gpuPrice}</td>
                         </tr>
                         <tr>
                             <td>Arbeitsspeicher</td>
                             <td>${config.ram}</td>
+                            <td>${config.ramPrice}</td>
                         </tr>
                         <tr>
                             <td>Speicher SSD</td>
                             <td>${config.ssd}</td>
+                            <td>${config.ssdPrice}</td>
                         </tr>
                         <tr>
                             <td>Speicher HDD</td>
                             <td>${config.hdd}</td>
+                            <td>${config.hddPrice}</td>
                         </tr>
                         <tr>
                             <td>Betriebssystem</td>
                             <td>${config.os}</td>
+                            <td>${config.osPrice}</td>
                         </tr>
                         <tr>
-                            <td class="total" colspan="2">Gesamtpreis: ${price} €</td>
+                            <td class="total" colspan="3">Gesamtpreis: ${config.getTotalPrice()} €</td>
                         </tr>
                     </tbody>
                 </table>
