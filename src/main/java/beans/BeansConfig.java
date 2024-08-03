@@ -1,13 +1,15 @@
 package beans;
 
-import java.io.Serializable;
-
-public class BeansConfig implements Serializable {
+public class BeansConfig {
     private String cpu;
+    private String mainboard;
     private String gpu;
     private String ram;
-    private String rom;
+    private String ssd;
+    private String hdd;
     private String os;
+
+    // Getters and setters for all fields
 
     public String getCpu() {
         return cpu;
@@ -15,6 +17,14 @@ public class BeansConfig implements Serializable {
 
     public void setCpu(String cpu) {
         this.cpu = cpu;
+    }
+
+    public String getMainboard() {
+        return mainboard;
+    }
+
+    public void setMainboard(String mainboard) {
+        this.mainboard = mainboard;
     }
 
     public String getGpu() {
@@ -32,15 +42,23 @@ public class BeansConfig implements Serializable {
     public void setRam(String ram) {
         this.ram = ram;
     }
-    
-    public String getRom() {
-        return rom;
+
+    public String getSsd() {
+        return ssd;
     }
 
-    public void setRom(String rom) {
-        this.rom = rom;
+    public void setSsd(String ssd) {
+        this.ssd = ssd;
     }
-    
+
+    public String getHdd() {
+        return hdd;
+    }
+
+    public void setHdd(String hdd) {
+        this.hdd = hdd;
+    }
+
     public String getOs() {
         return os;
     }

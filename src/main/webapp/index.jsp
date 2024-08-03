@@ -30,6 +30,7 @@
     <h2>Unsere Produkte</h2>
     <div class="product-grid">
         <a id="choosePC" onclick="navigateToProductPage('1','r5600','msib550','rtx4060ti','16gb','1tb','0gb','x')" class="product-link">
+         
             <div class="product">
                 <img src="css/pictures/pc1.jpg" alt="Produkt 1">
                 <div class="product-details">
@@ -38,9 +39,11 @@
                     <div class="price">€1299</div>
                 </div>
             </div>
-        </a>   
+        </a>  
         <a id="choosePC" onclick="navigateToProductPage('2','r5600','msib550','rtx4070','32gb','1tb','0gb','win10')" class="product-link">
+        
             <div class="product">
+            
                 <img src="css/pictures/pc2.jpg" alt="Produkt 2">
                 <div class="product-details">
                     <h3>Produkt 2</h3>
@@ -48,8 +51,9 @@
                     <div class="price">€1299</div>
                 </div>
             </div>
-        </a>   
+         </a>  
         <a id="choosePC" onclick="navigateToProductPage('3','r5700x','asusb550','rtx4080','32gb','2tb','0gb','win10')" class="product-link">
+       
             <div class="product">
                 <img src="css/pictures/pc3.jpg" alt="Produkt 3">
                 <div class="product-details">
@@ -58,8 +62,9 @@
                     <div class="price">€1299</div>
                 </div>
             </div>
-        </a>   
+          </a>  
         <a id="choosePC" onclick="navigateToProductPage('4','r5800x','asusb550','rx6700xt','32gb','2tb','0gb','win10')" class="product-link">
+    
             <div class="product">
                 <img src="css/pictures/pc4.jpg" alt="Produkt 4">
                 <div class="product-details">
@@ -68,27 +73,29 @@
                     <div class="price">€1299</div>
                 </div>
             </div>
-        </a>        
+                 </a>  
         <a id="choosePC" onclick="navigateToProductPage('5','r5900','msix570','rx6900xt','64gb','2tb','2tb','win10')" class="product-link">
-            <div class="product">
+        
+        <div class="product">
                 <img src="css/pictures/pc5.jpg" alt="Produkt 5">
                 <div class="product-details">
                     <h3>Produkt 5</h3>
                     <p class="info">Ryzen 9 5900, RX 6900XT, 64gb Ram, 2tb SSD, 2tb HDD</p>
                     <div class="price">€1299</div>
                 </div>
-            </div>
-        </a>   
+        </div>
+         </a>  
         <a id="choosePC" onclick="navigateToProductPage('6','r5950x','asusx570','rtx4090','64gb','2tb','4tb','win10')" class="product-link">
-            <div class="product">
+        
+        <div class="product">
                 <img src="css/pictures/pc6.jpg" alt="Produkt 6">
                 <div class="product-details">
                     <h3>Produkt 6</h3>
                     <p class="info">Ryzen 9 5950X, RTX 4090, 64gb Ram, 2tb SSD, 4tb HDD</p>
                     <div class="price">€1299</div>
                 </div>
-            </div>
-        </a>   
+        </div>
+          </a> 
     </div>
 </div>
 

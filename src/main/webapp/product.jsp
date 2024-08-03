@@ -36,7 +36,7 @@
             </div>
             <div class="configurator">
                 <h2>Konfigurator</h2>
-                <form>
+                <form action="config" method="post">
                     <div class="form-group">
                         <label for="cpu">Prozessor:</label>
                         <select id="cpu" name="cpu">
@@ -95,7 +95,7 @@
                             <option value="512gb">512GB SSD</option>
                             <option value="1tb">1TB SSD</option>
                             <option value="2tb">2TB SSD</option>
-                            <option value="2tb">4TB SSD</option>
+                            <option value="4tb">4TB SSD</option>
                         </select>
                     </div>
                     <div class="form-group">
@@ -115,8 +115,7 @@
                             <option value="win11">Windows 11</option>
                         </select>
                     </div>
-                    <h2>Preis: XXXX€</h2>
-                    <a href="checkout.jsp">Zur Kasse</a>
+                    <button type="submit">Konfigurieren</button>
                 </form>
             </div>
         </div>
@@ -129,4 +128,3 @@
 
 </body>
 </html>
-<script src="javascript/product.js"></script>

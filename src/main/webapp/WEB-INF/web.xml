@@ -5,12 +5,12 @@
          version="3.1">
 
     <servlet>
-        <servlet-name>ConfigServlet</servlet-name>
-        <servlet-class>servlets.ServletsConfig</servlet-class>
+        <servlet-name>ServletConfig</servlet-name>
+        <servlet-class>servlets.ServletConfig</servlet-class>
     </servlet>
     
     <servlet-mapping>
-        <servlet-name>ConfigServlet</servlet-name>
+        <servlet-name>ServletConfig</servlet-name>
         <url-pattern>/config</url-pattern>
     </servlet-mapping>
     
