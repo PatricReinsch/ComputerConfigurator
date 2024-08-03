@@ -1,3 +1,15 @@
+#test {
+    background-color: #4CAF50; /* Green background */
+
+}
+
+/* Style for the button on hover */
+#test:hover {
+    background-color: white; /* White background */
+    color: black; /* Black text */
+    border: 2px solid #4CAF50; /* Green border */
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -184,21 +196,6 @@ footer {
     margin-bottom: 20px;
     text-align: center;
 }
-
-button.button {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button.button:hover {
-    background-color: #0056b3;
-}
 .accordion {
     background-color: #1E1F22;
     color: #ffffff;
@@ -212,18 +209,18 @@ button.button:hover {
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .accordion:hover {
+.active, .accordion:hover {
     background-color: #171719;
-  }
+}
   
   /* Style the accordion panel. Note: hidden by default */
-  .panel {
+.panel {
     padding: 0 18px;
     background-color: #1E1F22;
     display: none;
     overflow: hidden;
-  }
-  a {
+}
+a {
     color: white; /* Textfarbe auf Weiß setzen */
     text-decoration: none; /* Unterstreichung entfernen */
 }
@@ -251,9 +248,6 @@ input {
     width: 50%; 
     border-collapse: collapse;
 }
-.checkout-button {
-    margin-top: 20px;
-}
 .info {
     text-align: center;
 }
@@ -268,5 +262,5 @@ input {
 .total {
 	text-align:center;
 	padding: 20px;
-	
 }
+

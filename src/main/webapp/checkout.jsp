@@ -9,6 +9,20 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <style>
+    button {
+    	margin-top: 10px;
+    	background-color: #001D3D;
+    	color: white;
+    	border: none; 
+    	padding: 10px 20px; 
+    	font-size: 1em; 
+    	border-radius: 5px; 
+	}
+	button:hover {
+    	background-color: #003566; 
+	}  
+    </style>
 </head>
 <body>
 
@@ -140,12 +154,10 @@
                         </tr>
                     </tbody>
                 </table>
-                <button id="buyButton" class="checkout-button">Bestellung abschicken</button>
+                <button id="buyButton">Bestellung abschicken</button>
             </div>
         </div>
-        
-    </div>
-    
+    </div> 
 </div>
 
 <footer>
@@ -154,3 +166,4 @@
 
 </body>
 </html>
+<script src="javascript/checkout.js"></script>
