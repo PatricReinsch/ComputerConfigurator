@@ -128,3 +128,4 @@
 
 </body>
 </html>
+<script src="javascript/product.js"></script>
