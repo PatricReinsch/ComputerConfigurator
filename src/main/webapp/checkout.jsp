@@ -36,11 +36,55 @@
             <div class="checkout-form">
                 <h2>Lieferadresse</h2>
                 <!-- Address form remains the same -->
+       <form action="/submit" method="POST">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Name" required>
+        </div>
+        <div class="product-container">
+            <div class="checkout-form form-group">
+                <label for="street">Straße</label>
+                <input type="text" id="street" name="street" placeholder="Straße" required>
+            </div>
+            <div class="checkout-form form-group">
+                <label for="house-number">Hausnummer</label>
+                <input type="number" id="house-number" name="house-number" placeholder="Hausnummer" required>
+            </div>
+            </div>
+        <div class="product-container">
+            <div class="checkout-form form-group">
+                <label for="city">Stadt</label>
+                <input type="text" id="city" name="city" placeholder="Stadt" required>
+            </div>
+            <div class="checkout-form form-group">
+                <label for="postal-code">Postleitzahl</label>
+                <input type="number" id="postal-code" name="postal-code" placeholder="Postleitzahl" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="country">Land</label>
+            <input type="text" id="country" name="country" placeholder="Land" required>
+        </div>
+    </form>
             </div>
         
             <div class="checkout-form">
                 <h2>Kreditkarte</h2>
                 <!-- Credit card form remains the same -->
+                <div class="form-group">
+            <label for="card-number">Kreditkartennummer</label>
+            <input type="number" id="card-number" name="card-number" placeholder="Kreditkartennummer" required>
+        </div>
+        <div class="product-container">
+            <div class="checkout-form  form-group">
+                <label for="expiration-date">Ablaufdatum (MM/JJ)</label>
+                <input type="text" id="expiration-date" name="expiration-date" placeholder="MM/JJ" required>
+            </div>
+            <div class="checkout-form  form-group">
+                <label for="cvv">CVV</label>
+                <input type="number" id="cvv" name="cvv" placeholder="CVV" required>
+            </div>
+        </div>
             </div>
         </div>
 
