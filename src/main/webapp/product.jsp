@@ -1,4 +1,5 @@
 <%@ page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page import="beans.BeansConfig" %>
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -8,20 +9,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <style>
-    button {
-    	margin-top: 10px;
-    	background-color: #001D3D;
-    	color: white;
-    	border: none; 
-    	padding: 10px 20px; 
-    	font-size: 1em; 
-    	border-radius: 5px; 
-	}
-	button:hover {
-    	background-color: #003566; 
-	}  
-    </style>
 </head>
 <body>
 
@@ -45,7 +32,14 @@
         <h2>Gaming PC</h2>
         <div class="product-container">
             <div class="product-info">
-                <img id="pic" src="css/pictures/pc1.jpg" alt="Gaming PC">
+                <!-- Use JSP to set the image source -->
+                <%
+                    String pic = request.getParameter("pic");
+                    if (pic == null || pic.isEmpty()) {
+                        pic = "pc1"; // Fallback image if no parameter is provided
+                    }
+                %>
+                <img id="pic" src="css/pictures/pc<%= pic %>.jpg" alt="Gaming PC">
             </div>
             <div class="configurator">
                 <h2>Konfigurator</h2>
@@ -139,6 +133,7 @@
     <p>&copy; 2024 Computer Konfigurator Shop. Alle Rechte vorbehalten.</p>
 </footer>
 
+<script src="javascript/product.js"></script>
+
 </body>
 </html>
-<script src="javascript/product.js"></script>
