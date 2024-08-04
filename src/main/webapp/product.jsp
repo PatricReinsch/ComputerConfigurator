@@ -122,7 +122,7 @@
                             <option value="win11">Windows 11</option>
                         </select>
                     </div>
-                    <button type="submit">Konfigurieren</button>
+                    <button type="submit">Zum Checkout</button>
                 </form>
             </div>
         </div>
