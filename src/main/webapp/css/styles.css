@@ -1,266 +1,265 @@
-#test {
-    background-color: #4CAF50; /* Green background */
-
-}
-
-/* Style for the button on hover */
-#test:hover {
-    background-color: white; /* White background */
-    color: black; /* Black text */
-    border: 2px solid #4CAF50; /* Green border */
-}
-
+/*CSS for mainparts*/
 body {
-    font-family: 'Roboto', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #2B2D31;
-    color: #ffffff;
-}
-
-header {
-    background-image: url('pictures/banner.jpeg');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    position: relative;
-}
-
-.header-content {
-    background: rgba(0, 0, 0, 0.5);
-    display: inline-block;
-    padding: 20px;
-    margin: 60px 0;
-    border-radius: 10px;
-}
-
-.header-content h1 {
-    font-size: 3em;
-    margin: 0;
-    font-weight: 700;
-}
-
-.header-content p {
-    font-size: 1.2em;
-    margin: 10px 0 0;
-    font-weight: 400;
-}
-header nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-}
-
-header nav ul li {
-    margin: 0 20px;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 700;
-    transition: color 0.3s;
-}
-
-header nav ul li a:hover {
-    color: #007BFF;
-}
-
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 40px 0;
-    text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #2B2D31;
+	color: #ffffff;
 }
 
 h2 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-    font-weight: 700;
-}
-
-.product-grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-.product {
-    background-color: #1E1F22;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: transform 0.3s, box-shadow 0.3s;
-    width: 300px;
-    position: relative;
-    cursor: pointer;
-}
-
-.product:hover {
-    transform: scale(1.05);
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-}
-
-.product img {
-    width: 100%;
-    height: auto;
-}
-
-.product-details {
-    padding: 15px;
-    text-align: left;
-}
-
-.product-details h3 {
-    font-size: 1.5em;
-    margin: 0 0 10px;
-    font-weight: 700;
-}
-
-.product-details p {
-    margin: 0 0 15px;
-    color: #ffffff;
-}
-
-.product-details .price {
-    font-size: 1.2em;
-    font-weight: bold;
-    color: #007BFF;
+	font-size: 2.5em;
+	margin-bottom: 20px;
+	font-weight: 700;
 }
 
 footer {
-    background-color: #1E1F22;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-    margin-top: 40px;
+	background-color: #1E1F22;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 40px;
 }
+
+header {
+	background-image: url('pictures/banner.jpeg');
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align: center;
+	position: relative;
+}
+
+.header-content {
+	background: rgba(0, 0, 0, 0.5);
+	display: inline-block;
+	padding: 20px;
+	margin: 60px 0;
+	border-radius: 10px;
+}
+
+.header-content h1 {
+	font-size: 3em;
+	margin: 0;
+	font-weight: 700;
+}
+
+.header-content p {
+	font-size: 1.2em;
+	margin: 10px 0 0;
+	font-weight: 400;
+}
+
+header nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+}
+
+header nav ul li {
+	margin: 0 20px;
+}
+
+header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: 700;
+	transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+	color: #007BFF;
+}
+
+/*CSS for specific parts of the JSP Sides*/
+.container {
+	width: 80%;
+	margin: 0 auto;
+	padding: 40px 0;
+	text-align: center;
+}
+
+.product-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 20px;
+	justify-content: center;
+}
+
+.product {
+	background-color: #1E1F22;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	transition: transform 0.3s, box-shadow 0.3s;
+	width: 300px;
+	position: relative;
+	cursor: pointer;
+}
+
+.product:hover {
+	transform: scale(1.05);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+	width: 100%;
+	height: auto;
+}
+
 .product-details {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	padding: 15px;
+	text-align: left;
+}
+
+.product-details h3 {
+	font-size: 1.5em;
+	margin: 0 0 10px;
+	font-weight: 700;
+}
+
+.product-details p {
+	margin: 0 0 15px;
+	color: #ffffff;
+}
+
+.product-details .price {
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #007BFF;
+}
+
+.product-details {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .product-details h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
+	font-size: 2em;
+	margin-bottom: 20px;
 }
 
 .product-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	width: 100%;
 }
 
 .product-info {
-    flex-grow: 1;
-    max-width: 60%;
+	flex-grow: 1;
+	max-width: 60%;
 }
 
 .product-info img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    margin-bottom: 20px;
+	max-width: 100%;
+	height: auto;
+	border-radius: 5px;
+	margin-bottom: 20px;
 }
 
 .product-info p {
-    font-size: 1.2em;
+	font-size: 1.2em;
 }
 
 .product-info ul {
-    list-style: none;
-    padding: 0;
+	list-style: none;
+	padding: 0;
 }
 
 .product-info ul li {
-    font-size: 1em;
-    margin: 5px 0;
+	font-size: 1em;
+	margin: 5px 0;
 }
 
 .configurator {
-    flex-grow: 1;
-    max-width: 40%;
+	flex-grow: 1;
+	max-width: 40%;
 }
 
 .configurator h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    text-align: center;
+	font-size: 2em;
+	margin-bottom: 20px;
+	text-align: center;
 }
+
 .accordion {
-    background-color: #1E1F22;
-    color: #ffffff;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-  }
-  
-  /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+	background-color: #1E1F22;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+}
+
 .active, .accordion:hover {
-    background-color: #171719;
+	background-color: #171719;
 }
-  
-  /* Style the accordion panel. Note: hidden by default */
+
 .panel {
-    padding: 0 18px;
-    background-color: #1E1F22;
-    display: none;
-    overflow: hidden;
+	padding: 0 18px;
+	background-color: #1E1F22;
+	display: none;
+	overflow: hidden;
 }
+
 a {
-    color: white; /* Textfarbe auf Weiß setzen */
-    text-decoration: none; /* Unterstreichung entfernen */
+	color: white;
+	text-decoration: none;
 }
+
 input {
-    padding: 10px;
-    font-size: 1em;
-    width: 100%;
-    border-radius: 5px;
-    border: 1px solid #ccc;
+	padding: 10px;
+	font-size: 1em;
+	width: 100%;
+	border-radius: 5px;
+	border: 1px solid #ccc;
 }
 
 .adress {
-    flex-grow: 1;
-    max-width: 40%;
-}
-.recipt {
-    flex-grow: 1;
-    max-width: 60%;
-}
-.order-summary {
-    text-align: center;
-}
-.order-summary table {
-    margin: 0 auto; 
-    width: 50%; 
-    border-collapse: collapse;
-}
-.info {
-    text-align: center;
-}
-.flex-container {
-    display: flex;
-}
-.flex-item {
-    margin: 10px;
-    padding: 10px;
-    background-color: #f4f4f4;
-}
-.total {
-	text-align:center;
-	padding: 20px;
+	flex-grow: 1;
+	max-width: 40%;
 }
 
+.recipt {
+	flex-grow: 1;
+	max-width: 60%;
+}
+
+.order-summary {
+	text-align: center;
+}
+
+.order-summary table {
+	margin: 0 auto;
+	width: 50%;
+	border-collapse: collapse;
+}
+
+.info {
+	text-align: center;
+}
+
+.flex-container {
+	display: flex;
+}
+
+.flex-item {
+	margin: 10px;
+	padding: 10px;
+	background-color: #f4f4f4;
+}
+
+.total {
+	text-align: center;
+	padding: 20px;
+}
