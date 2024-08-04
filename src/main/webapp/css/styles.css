@@ -7,6 +7,20 @@ body {
 	color: #ffffff;
 }
 
+button {
+	margin-top: 10px;
+	background-color: #001D3D;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	font-size: 1em;
+	border-radius: 5px;
+}
+
+button:hover {
+	background-color: #003566;
+}
+
 h2 {
 	font-size: 2.5em;
 	margin-bottom: 20px;

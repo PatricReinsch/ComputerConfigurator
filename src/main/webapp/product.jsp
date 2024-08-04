@@ -12,22 +12,7 @@
 	href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
 	rel="stylesheet">
 <link rel="stylesheet" href="css/styles.css">
-<style>
-/*CSS for Button, could somehow not be implemented in styles.css*/
-button {
-	margin-top: 10px;
-	background-color: #001D3D;
-	color: white;
-	border: none;
-	padding: 10px 20px;
-	font-size: 1em;
-	border-radius: 5px;
-}
 
-button:hover {
-	background-color: #003566;
-}
-</style>
 </head>
 <body>
 
@@ -65,7 +50,7 @@ button:hover {
 				<div class="configurator">
 					<h2>Konfigurator</h2>
 					<form action="config" method="post">
-					<!-- CPU models -->
+						<!-- CPU models -->
 						<div class="form-group">
 							<label for="cpu">Prozessor:</label> <select id="cpu" name="cpu">
 								<option value="r5950x">Ryzen 9 5950X</option>

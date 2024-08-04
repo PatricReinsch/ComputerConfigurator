@@ -3,37 +3,23 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<!-- header -->
+<!-- Header section -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Computer Konfigurator Shop</title>
+<!-- Font Awesome and Google Fonts -->
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link
 	href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
 	rel="stylesheet">
+<!-- External CSS file -->
 <link rel="stylesheet" href="css/styles.css">
-<style>
-/*CSS for Button, could somehow not be implemented in styles.css*/
-button {
-	margin-top: 10px;
-	background-color: #001D3D;
-	color: white;
-	border: none;
-	padding: 10px 20px;
-	font-size: 1em;
-	border-radius: 5px;
-}
 
-button:hover {
-	background-color: #003566;
-}
-</style>
 </head>
 <body>
-
 	<header>
-		<!-- Menu -->
+		<!-- Navigation Menu -->
 		<nav>
 			<ul>
 				<li><a href="index.jsp">Home</a></li>
@@ -42,7 +28,7 @@ button:hover {
 				<li><a href="impressum.jsp">Impressum</a></li>
 			</ul>
 		</nav>
-		<!-- header Content -->
+		<!-- Header Content -->
 		<div class="header-content">
 			<h1>Computer Konfigurator Shop</h1>
 			<p>Stellen Sie Ihren perfekten Computer zusammen</p>
@@ -51,14 +37,11 @@ button:hover {
 
 	<div class="container">
 		<h2>Kasse</h2>
-
 		<div class="product-container">
-
 			<div class="adress">
-				<!-- Inputs for Adress -->
+				<!-- Inputs for Address -->
 				<div class="checkout-form">
 					<h2>Lieferadresse</h2>
-					<!-- Address form remains the same -->
 					<form action="/submit" method="POST">
 						<div class="form-group">
 							<label for="name">Name</label> <input type="text" id="name"
@@ -94,7 +77,7 @@ button:hover {
 				</div>
 
 				<div class="checkout-form">
-					<!-- Input for Creditcard info -->
+					<!-- Inputs for Credit Card info -->
 					<h2>Kreditkarte</h2>
 					<div class="form-group">
 						<label for="card-number">Kreditkartennummer</label> <input
@@ -102,12 +85,12 @@ button:hover {
 							placeholder="Kreditkartennummer" required>
 					</div>
 					<div class="product-container">
-						<div class="checkout-form  form-group">
+						<div class="checkout-form form-group">
 							<label for="expiration-date">Ablaufdatum (MM/JJ)</label> <input
 								type="text" id="expiration-date" name="expiration-date"
 								placeholder="MM/JJ" required>
 						</div>
-						<div class="checkout-form  form-group">
+						<div class="checkout-form form-group">
 							<label for="cvv">CVV</label> <input type="number" id="cvv"
 								name="cvv" placeholder="CVV" required>
 						</div>
@@ -117,7 +100,7 @@ button:hover {
 
 			<div class="recipt">
 				<div class="order-summary">
-					<!-- Overview over ordered Items -->
+					<!-- Overview of ordered items -->
 					<h2>Bestellübersicht</h2>
 					<table>
 						<thead>
@@ -179,7 +162,6 @@ button:hover {
 		<p>&copy; 2024 Computer Konfigurator Shop. Alle Rechte
 			vorbehalten.</p>
 	</footer>
-
 </body>
 </html>
 <script src="javascript/checkout.js"></script>
