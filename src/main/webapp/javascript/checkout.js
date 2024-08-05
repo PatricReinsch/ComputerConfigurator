@@ -17,18 +17,25 @@ document.addEventListener("DOMContentLoaded", function() {
 		checkIfEmpty("expiration-date");
 		checkIfEmpty("cvv");
 
-		// If any field is empty, alert the user
-		if (filled == false) {
-			alert("Please fill in all required fields.");
-		}
-
 		// Get the value of the country input and convert it to lowercase
 		countryInput = document.getElementById('country').value;
 		lowerCaseCountry = countryInput.toLowerCase();
-		// Check if the country is not 'Deutschland', if so, alert the user
-		if (lowerCaseCountry !== 'deutschland') {
+
+		// If any field is empty, alert the user
+		if (filled == false) {
+			alert("Please fill in all required fields.");
+		} else if (lowerCaseCountry !== 'deutschland') {
+			// Check if the country is not 'Deutschland', if so, alert the user
 			alert('We only ship to Germany.');
+
+		} else if (validateCreditCard(document.getElementById("card-number").value)) {
+			console.log("The credit card number is valid.");
+			alert("The ordering process succeed!");
+		} else {
+			alert("The credit card number is invalid.");
 		}
+
+
 
 		// Validate the credit card number
 		if (validateCreditCard(document.getElementById("card-number").value)) {

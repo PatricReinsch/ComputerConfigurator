@@ -14,7 +14,7 @@ body {
 	flex-direction: column;
 }
 
-/* Stelle sicher, dass der Hauptinhalt den verfügbaren Platz einnimmt */
+/* Make sure the main content takes up the available space */
 .container {
 	flex: 1;
 }
