@@ -1,10 +1,22 @@
 /*CSS for mainparts*/
-body {
+body, body {
 	font-family: 'Roboto', sans-serif;
 	margin: 0;
 	padding: 0;
 	background-color: #2B2D31;
 	color: #ffffff;
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Stelle sicher, dass der Hauptinhalt den verfügbaren Platz einnimmt */
+.container {
+	flex: 1;
 }
 
 button {
@@ -15,6 +27,7 @@ button {
 	padding: 10px 20px;
 	font-size: 1em;
 	border-radius: 5px;
+	cursor: pointer;
 }
 
 button:hover {
@@ -33,6 +46,7 @@ footer {
 	text-align: center;
 	padding: 20px 0;
 	margin-top: 40px;
+	width: 100%;
 }
 
 header {
@@ -84,6 +98,10 @@ header nav ul li a {
 
 header nav ul li a:hover {
 	color: #007BFF;
+}
+
+nav {
+	margin: 10px;
 }
 
 /*CSS for specific parts of the JSP Sides*/
@@ -286,4 +304,15 @@ select {
 .total {
 	text-align: center;
 	padding: 20px;
+}
+.form-group {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 10px;
+}
+
+.form-group label {
+	text-align: center;
+	margin-bottom: 5px;
 }

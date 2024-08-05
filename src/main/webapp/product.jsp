@@ -130,7 +130,9 @@
 								<option value="win11">Windows 11</option>
 							</select>
 						</div>
-						<button type="submit">Zum Checkout</button>
+						<div class="form-group">
+							<button type="submit">Zum Checkout</button>
+						</div>
 					</form>
 				</div>
 			</div>

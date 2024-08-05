@@ -152,7 +152,9 @@
 							</tr>
 						</tbody>
 					</table>
-					<button id="buyButton">Bestellung abschicken</button>
+					<div class="form-group">
+						<button id="buyButton">Bestellung abschicken</button>
+					</div>
 				</div>
 			</div>
 		</div>
